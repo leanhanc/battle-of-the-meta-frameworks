@@ -31,7 +31,7 @@ Between you and me, Tech Twitter [drama](https://twitter.com/ryanflorence/status
 ## Technical details
 
 - I will be using SSR in order to make a better comparison of the sites.
-- All sites will be deployed on Netlify since using Vercel for example would give an edge to Next.
+- All sites will be deployed on Netlify since using Vercel for example would probably give an edge to Next.
 - Only frameworks that support React will be tested. Nuxt (Vue) and Svelte-Kit (Svelte) might be added in the future."
 
 ## Disclaimer
