@@ -30,8 +30,8 @@ Between you and me, Tech Twitter [drama](https://twitter.com/ryanflorence/status
 
 ## Technical details
 
-- I will be using SSR in order to make a better comparison of the sites.
-- All sites will be deployed on Netlify since using Vercel for example would probably give an edge to Next.
+- I will use SSR in all cases because it is the rendering pattern supported by all frameworks, enabling easier and fairer comparisons.
+- All sites will be deployed on a DigitalOcean Droplet to even the playing field. This setup also enables the use of React 18 streaming server components, which will be utilized when loading data from external sources.
 - Only frameworks that support React will be tested. Nuxt (Vue) and Svelte-Kit (Svelte) might be added in the future."
 
 ## Disclaimer
