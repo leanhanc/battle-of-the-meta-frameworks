@@ -1,4 +1,4 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { LinksFunction, MetaFunction } from "@remix-run/node";
 import {
 	Links,
 	LiveReload,
@@ -8,8 +8,9 @@ import {
 	ScrollRestoration,
 } from "@remix-run/react";
 
-// Tailwind
-import tailwind from "./styles/app.css";
+// Local Stylesheet
+import reset from "../app/styles/reset.css";
+import global from "../app/styles/app.css";
 
 export const meta: MetaFunction = () => ({
 	charset: "utf-8",
@@ -18,15 +19,15 @@ export const meta: MetaFunction = () => ({
 	description: "This is a fake site part of a technical experiment",
 });
 
-export function links() {
+export function links(): ReturnType<LinksFunction> {
 	return [
 		{
 			rel: "stylesheet",
-			href: "reset.css",
+			href: reset,
 		},
 		{
 			rel: "stylesheet",
-			href: tailwind,
+			href: global,
 		},
 	];
 }
