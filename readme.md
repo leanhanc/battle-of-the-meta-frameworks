@@ -2,12 +2,14 @@
 
 ## What is this?
 
-I'll be building the exact same app with [React](https://reactjs.org/) with this four meta-frameworks:
+I'll be building the exact same app with [React](https://reactjs.org/) with this meta-frameworks:
 
 1. [Remix](https://remix.run)
-2. [Next JS](https://nextjs.org)
-3. [Astro](https://astro.build)
-4. [Qwik](https://github.com/Quick/Quick)
+2. [Astro](https://astro.build)
+3. [Next JS](https://nextjs.org)
+4. [Qwik City](https://qwik.builder.io/qwikcity/overview/)
+5. [Svelte-Kit](https://kit.svelte.dev/)
+6. [Nuxt](https://nuxtjs.org/)
 
 Then I will test them with [PageSpeed Insights](https://pagespeed.web.dev) to see which one has better performance.
 
@@ -32,7 +34,6 @@ Between you and me, Tech Twitter [drama](https://twitter.com/ryanflorence/status
 
 - I will use SSR in all cases because it is the rendering pattern supported by all frameworks, enabling easier and fairer comparisons.
 - All sites will be deployed on a DigitalOcean Droplet to even the playing field. This setup also enables the use of React 18 streaming server components, which will be utilized when loading data from external sources.
-- Only frameworks that support React will be tested. Nuxt (Vue) and Svelte-Kit (Svelte) might be added in the future."
 
 ## Disclaimer
 
