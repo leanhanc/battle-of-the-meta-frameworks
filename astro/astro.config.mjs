@@ -14,10 +14,16 @@ import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
-  output: "server",
-  outDir: "build",
-  integrations: [tailwind(), react(), image()],
-  adapter: node({
-    mode: "standalone"
-  })
+	output: "server",
+	outDir: "build",
+	integrations: [
+		tailwind(),
+		react(),
+		image({
+			serviceEntryPoint: "@astrojs/image/sharp",
+		}),
+	],
+	adapter: node({
+		mode: "standalone",
+	}),
 });
