@@ -7,8 +7,17 @@ import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 
 // https://astro.build/config
+import node from "@astrojs/node";
+
+// https://astro.build/config
+import image from "@astrojs/image";
+
+// https://astro.build/config
 export default defineConfig({
   output: "server",
   outDir: "build",
-  integrations: [tailwind(), react()]
+  integrations: [tailwind(), react(), image()],
+  adapter: node({
+    mode: "standalone"
+  })
 });
