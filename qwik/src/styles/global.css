@@ -5,12 +5,12 @@
 @layer base {
 	@font-face {
 		font-family: "OpenSans";
-		src: url("../../public/fonts/OpenSans.ttf");
+		src: url("/fonts/OpenSans.ttf");
 		font-weight: 100 900;
 	}
 	@font-face {
 		font-family: "Inter";
-		src: url("../../public/fonts/Inter.ttf");
+		src: url("/fonts/Inter.ttf");
 		font-weight: 100 900;
 	}
 
