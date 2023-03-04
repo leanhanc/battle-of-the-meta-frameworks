@@ -8,8 +8,9 @@ I'll be building the exact same app with [React](https://reactjs.org/) with this
 2. [Astro](https://astro.build)
 3. [Next JS](https://nextjs.org)
 4. [Qwik City](https://qwik.builder.io/qwikcity/overview/)
-5. [Svelte-Kit](https://kit.svelte.dev/)
-6. [Nuxt](https://nuxtjs.org/)
+5. [Solid Start](https://start.solidjs.com)
+6. [Svelte-Kit](https://kit.svelte.dev/)
+7. [Nuxt](https://nuxtjs.org/)
 
 Then I will test them with [PageSpeed Insights](https://pagespeed.web.dev) to see which one has better performance.
 
