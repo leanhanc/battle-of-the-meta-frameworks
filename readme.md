@@ -35,6 +35,7 @@ Between you and me, Tech Twitter [drama](https://twitter.com/ryanflorence/status
 
 - I will use SSR in all cases because it is the rendering pattern supported by all frameworks, enabling easier and fairer comparisons.
 - All sites will be deployed on a DigitalOcean Droplet to even the playing field. This setup also enables the use of React 18 streaming server components, which will be utilized when loading data from external sources.
+- The goal is to compare the best possible version of the site with each framework. If you are an expert in a particular framework, I would appreciate any contributions to fully leverage the capabilities of each technology.
 
 ## Disclaimer
 
