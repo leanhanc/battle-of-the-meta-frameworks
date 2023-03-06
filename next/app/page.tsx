@@ -1,10 +1,7 @@
-import Image from "next/image";
-
 import localFont from "next/font/local";
 import HeroImage from "@/app/components/HeroImage";
 
 const interFont = localFont({ src: "../public/fonts/Inter.ttf" });
-const openSansFont = localFont({ src: "../public/fonts/Inter.ttf" });
 
 export default function Home() {
 	return (
@@ -14,7 +11,7 @@ export default function Home() {
 			>
 				<HeroImage />
 				<div className="container relative flex h-full w-full flex-col items-center justify-center py-4 lg:items-start">
-					<h1 className="heading-shadow font-heading relative text-6xl font-bold tracking-wide">
+					<h1 className="heading-shadow relative font-heading text-6xl font-bold tracking-wide">
 						All Kinds of Beauty
 					</h1>
 					<p className="heading-shadow-subtle w-max-75 relative mb-14 mt-14 font-sans text-lg font-medium tracking-wider lg:max-w-sm lg:text-left lg:text-xl">
