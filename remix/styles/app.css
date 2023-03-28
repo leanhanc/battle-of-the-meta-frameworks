@@ -51,4 +51,38 @@
 			rgba(18, 30, 51, 0) 63.6%
 		);
 	}
+
+	.masonry {
+		grid-column-gap: 2rem;
+		align-items: start;
+		display: grid;
+		grid-template-columns: repeat(1, minmax(250px, 1fr));
+	}
+
+	@media screen and (min-width: 760px) {
+		.masonry {
+			grid-template-columns: repeat(2, minmax(250px, 1fr));
+		}
+	}
+
+	@media screen and (min-width: 1024px) {
+		.masonry {
+			grid-template-columns: repeat(3, minmax(250px, 1fr));
+		}
+	}
+
+	.masonry li {
+		padding: 1rem 0;
+		width: 100%;
+	}
+
+	.masonry img {
+		border-radius: 4px;
+		cursor: pointer;
+		transition: transform ease-in-out 0.3s;
+	}
+
+	.masonry img:hover {
+		transform: scale(1.02);
+	}
 }
